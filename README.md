@@ -7,19 +7,19 @@ Image recognition is one of the hottest topics in machine learning. In this proj
 
 ### Data Content 
 The dataset has three .zip files that contain over 600k well-labeld real-world images of house numbers taken from Google Street View. 
-test.zip: 26,032 digits for testing
-train.zip: 73,257 digits for training
-extra.zip: 531,131 additional, somewhat less difficult samples, to use as extra training data
+-test.zip: 26,032 digits for testing
+-train.zip: 73,257 digits for training
+-extra.zip: 531,131 additional data might come in handy
 
 ### Additional Information
 There are 10 classes, 1 for each digit. Digit '1' has label 1, '9' has label 9 and '0' has label 10. <br>
-The images are the original, variable-resolution, color house-number images with character <br> level bounding boxes in .png format.
-digitStruct.mat: Contains bounding box information for each respective .zip file are stored as digitStruct.mat, which can be loaded using Matlab. The digitStruct.mat files contain a struct called digitStruct with the same length as the number of original images.
+The images are the original, variable-resolution, color house-number images with character level bounding boxes in .png format.<br> 
+digitStruct.mat: Contains bounding box information for each respective<br>
 Each element in digitStruct has the following fields:
 name: string containing the filename of the corresponding image
-bbox: struct array that contains the position, size and label of each digit bounding box in the image. Ex. digitStruct(300).bbox(2).height gives height of the 2nd digit bounding box in the 300th image.
+bbox: struct array that contains the position, size and label of each digit
 
-Acknowledgements
+###Acknowledgements
 The SVHN dataset originates from http://ufldl.stanford.edu/housenumbers/. 
 
 The original paper that introduces and examines this data:
