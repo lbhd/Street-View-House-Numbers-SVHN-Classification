@@ -19,9 +19,6 @@ Each element in digitStruct has the following fields:
 name: string containing the filename of the corresponding image
 bbox: struct array that contains the position, size and label of each digit
 
-###Acknowledgements
-The SVHN dataset originates from http://ufldl.stanford.edu/housenumbers/. 
+### Acknowledgements
+The SVHN dataset orginal source: http://ufldl.stanford.edu/housenumbers/. 
 
-The original paper that introduces and examines this data:
-
-Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, Andrew Y. Ng Reading Digits in Natural Images with Unsupervised Feature Learning NIPS Workshop on Deep Learning and Unsupervised Feature Learning 2011.
