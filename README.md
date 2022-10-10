@@ -11,10 +11,9 @@ test.zip: 26,032 digits for testing
 train.zip: 73,257 digits for training
 extra.zip: 531,131 additional, somewhat less difficult samples, to use as extra training data
 
-Additional Information
-
-There are 10 classes, 1 for each digit. Digit '1' has label 1, '9' has label 9 and '0' has label 10.
-The images are the original, variable-resolution, color house-number images with character level bounding boxes in .png format.
+### Additional Information
+There are 10 classes, 1 for each digit. Digit '1' has label 1, '9' has label 9 and '0' has label 10. \
+The images are the original, variable-resolution, color house-number images with character \level bounding boxes in .png format.
 digitStruct.mat: Contains bounding box information for each respective .zip file are stored as digitStruct.mat, which can be loaded using Matlab. The digitStruct.mat files contain a struct called digitStruct with the same length as the number of original images.
 Each element in digitStruct has the following fields:
 name: string containing the filename of the corresponding image
